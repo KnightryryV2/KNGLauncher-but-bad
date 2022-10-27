@@ -39,6 +39,6 @@ jobs:
     cache-dependency-path: # optional
       - run: npm install 
       - run: npm install minecraft-launcher-core
-      - run: npm ci
+
 
       - run: npm run electron:build

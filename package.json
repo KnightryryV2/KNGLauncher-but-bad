@@ -28,7 +28,7 @@
     "electron:serve": "concurrently -k \"cross-env BROWSER=none yarn start\" \"yarn electron:start\"",
     "electron:build": "yarn build && electron-builder -c.extraMetadata.main=build/main.js",
     "electron:start": "wait-on tcp:3000 && electron .",
-    "app:build": "electron-packager . app --platform win32 --arch x64 --out dist/"
+    "app:build": "electron-packager . app --platform linux --arch x64 -- target deb--out dist/"
   },
   "build": {
     "extends": null,

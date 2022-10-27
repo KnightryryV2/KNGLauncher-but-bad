@@ -13,7 +13,8 @@ function App() {
   return (
 
     <div className="App">
-      <button onClick={callIPC}>Launch Minecraft</button>
+      <h1 className="head1">KNGLauncher</h1>
+      <button onClick={callIPC} className="btn">Launch Minecraft</button>
     </div>
   )
 }

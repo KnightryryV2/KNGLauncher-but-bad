@@ -3,3 +3,16 @@
     color: white;
     height: 100vh;
 }
+
+.head1{
+    position: absolute;
+    top: 50;
+    left: 425;
+}
+
+.btn{
+    position: absolute;
+    top: 500;
+    left: 425;
+    border: none;
+}

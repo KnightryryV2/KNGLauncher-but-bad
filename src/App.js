@@ -1,6 +1,6 @@
-const fs = window.require('fs')
-const pathModule = window.require('path')
-const { app } = window.require('@electron/remote')
+// const fs = window.require('fs')
+// const pathModule = window.require('path')
+// const { app } = window.require('@electron/remote')
 const { ipcRender } = window.require('electron')
 
 

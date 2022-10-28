@@ -29,4 +29,3 @@ jobs:
     - run: npm i
     - run: npm update
     - run: npm run build
-    - run: npm test
